@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Image Engine</h1>
+    <form action="">
+        <input type="text" id="search-input" placeholder="Search For Images">
+        <button id="search-button">Search</button>
+    </form>
+    <div class="search-results " style="display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    padding-left: 200px;">
+        <div class="search-result" style="padding-top: 0; padding-left: 0;">
+            <div class="image-container">
+                <img src="img1.jpg" alt="" width="200px" height="200px">
+                <p class="image-name">Image 1</p>
+            </div>
+            <div class="image-container">
+                <img src="img2.jpg" alt="" width="200px" height="200px">
+                <p class="image-name">Image 2</p>
+            </div>
+            <div class="image-container">
+                <img src="img3.jpg" alt="" width="200px" height="200px">
+                <p class="image-name">Image 3</p>
+            </div>
+        </div>
+    </div>
+    <button id="show-more-button">Show More</button>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
